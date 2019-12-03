@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "body.has_module-advertising-position-right-out:nth-child(2) div.wrapper:nth-child(53) div.site_wrapper:nth-child(9) main.site_main.OLXcampaign.esquadrao-desapega:nth-child(4) div.page_listing:nth-child(5) div.grid-row div.grid-col.col-2:nth-child(2) div.section_listing:nth-child(4) div.module_pagination:nth-child(11) ul.list li.item.next:nth-child(16) > a.link"
+}

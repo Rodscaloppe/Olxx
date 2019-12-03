@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "ul#main-ad-list li:nth-child(7) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2"
+}

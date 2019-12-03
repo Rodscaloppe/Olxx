@@ -1,0 +1,288 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1575372886385' stop='1575372900603'>
+    <name>Procurar produto no site Olx Eu realizo uma busca e validando a paginacao</name>
+    <title>Procurar produto no site Olx Eu realizo uma busca e validando a paginacao</title>
+    <test-cases>
+        <test-case start='1575372889859' status='passed' stop='1575372891145'>
+            <name>Estou no site Olx</name>
+            <title>Estou no site Olx</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":1,"args":["--window-size=1280,800"]}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/rod/Documentos/olx/Olxx/features/pesquisa/pesquisarOlx.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575372889860' status='passed' stop='1575372891143'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/url</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/url</title>
+                    <attachments>
+                        <attachment title='Request' source='9f6f7d5c-7e34-4950-8674-27218e44a231-attachment.json' type='application/json' size='40'/>
+                        <attachment title='Response' source='2ff5f36f-c0fb-439a-b870-311a770780c3-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575372891145' status='passed' stop='1575372891204'>
+            <name>Estou na tela home Olx</name>
+            <title>Estou na tela home Olx</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":1,"args":["--window-size=1280,800"]}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/rod/Documentos/olx/Olxx/features/pesquisa/pesquisarOlx.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575372891146' status='passed' stop='1575372891169'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b3c4b924-7c58-4d21-a761-f31c63958096-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='79e67802-0f7c-4ffd-a9b6-5339325e9345-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891173' status='passed' stop='1575372891188'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/elements</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='bb6ec587-ad93-47e8-b5b0-946caef9798d-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='4a0d43a5-40cd-4e72-823f-a1c1456b4b74-attachment.json' type='application/json' size='245'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891188' status='passed' stop='1575372891203'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/0/displayed</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/0/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='5dd5acaa-72bf-468f-9b6e-3fe98bdb73e4-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575372891204' status='passed' stop='1575372895789'>
+            <name>Realizo uma busca na barra de pesquisa</name>
+            <title>Realizo uma busca na barra de pesquisa</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":1,"args":["--window-size=1280,800"]}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/rod/Documentos/olx/Olxx/features/pesquisa/pesquisarOlx.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575372891205' status='passed' stop='1575372891216'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a3924261-1e06-4a8d-b53c-60934c6824d5-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='0abff482-e364-455c-ba0f-6c5032a89de6-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891218' status='passed' stop='1575372891230'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/elements</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='28a566df-767b-4d26-8a07-0077cb07cde1-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='20a8f89b-16bf-47de-94d9-e556161b0462-attachment.json' type='application/json' size='243'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891230' status='passed' stop='1575372891241'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/0/displayed</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/0/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='f3a5c894-4a8c-41ac-a297-5c7f60e34a8d-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891241' status='passed' stop='1575372891255'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='05d29a85-1554-4e2e-82e7-bbf53f41deba-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='cc545b7b-6709-46a9-88e9-32db29f1cb27-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891257' status='passed' stop='1575372891274'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/1/clear</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/1/clear</title>
+                    <attachments>
+                        <attachment title='Response' source='20d319ac-bbe9-44a3-9c77-de8732b4d307-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891275' status='passed' stop='1575372891313'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/1/value</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='949ac952-b5e4-492f-9056-672cf980c4b3-attachment.json' type='application/json' size='95'/>
+                        <attachment title='Response' source='b8e0c6c8-a4ab-4b18-96df-7820b12342cb-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891315' status='passed' stop='1575372891330'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c112636-f2a5-4a76-880f-679973bae806-attachment.json' type='application/json' size='85'/>
+                        <attachment title='Response' source='f8b27dd4-d6f4-49a5-b173-bc8ba17a9809-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891333' status='passed' stop='1575372891346'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/2/displayed</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/2/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='33389963-75ea-4817-952e-d6993633f68e-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891347' status='passed' stop='1575372891378'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='64917797-4589-456e-baeb-43e632279a02-attachment.json' type='application/json' size='85'/>
+                        <attachment title='Response' source='f8cab03e-0d5d-4f66-b90e-7799c6165bf3-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372891388' status='passed' stop='1575372895786'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/2/click</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='fe93afe0-f21a-4209-90fb-31a07ae58c02-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575372895790' status='passed' stop='1575372899186'>
+            <name>Sou direcionado para proxima pagina</name>
+            <title>Sou direcionado para proxima pagina</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":1,"args":["--window-size=1280,800"]}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/rod/Documentos/olx/Olxx/features/pesquisa/pesquisarOlx.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575372895791' status='passed' stop='1575372895926'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c32aa10-f1e3-4b78-b49c-c18698d67582-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='d1717b3e-9542-4b99-8bec-1965ecc9756b-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372895929' status='passed' stop='1575372895946'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/elements</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ca24b540-8dfc-4b72-8cb8-5db276fdeb0a-attachment.json' type='application/json' size='84'/>
+                        <attachment title='Response' source='d81e1249-78ea-46a8-97e8-9cb4092d1ba7-attachment.json' type='application/json' size='245'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372895946' status='passed' stop='1575372895960'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/3/displayed</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/3/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='13279f2f-0f9f-464b-8ee8-732a3a7ae097-attachment.json' type='application/json' size='196'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372895961' status='passed' stop='1575372895974'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='817cecda-7f26-48fe-a94e-b576981c9f69-attachment.json' type='application/json' size='410'/>
+                        <attachment title='Response' source='7feb694f-c678-4ce5-9a6a-82dd7ec73d1c-attachment.json' type='application/json' size='221'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372895976' status='passed' stop='1575372899182'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/4/click</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/4/click</title>
+                    <attachments>
+                        <attachment title='Response' source='1a833f66-adfc-4abd-b5f8-f190f000552f-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1575372899187' status='passed' stop='1575372900603'>
+            <name>Eu Valido a paginacao</name>
+            <title>Eu Valido a paginacao</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","maxInstances":1,"args":["--window-size=1280,800"]}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/home/rod/Documentos/olx/Olxx/features/pesquisa/pesquisarOlx.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1575372900191' status='passed' stop='1575372900215'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ca2a7d26-12d9-4455-90e5-dd581992ca62-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='b27a7134-0b65-4be3-9d91-0f1c10587c56-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372900219' status='passed' stop='1575372900237'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/5/displayed</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/5/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='4120e225-6bf3-478b-95d4-b972687832c7-attachment.json' type='application/json' size='195'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372900238' status='passed' stop='1575372900255'>
+                    <name>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</name>
+                    <title>POST /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element</title>
+                    <attachments>
+                        <attachment title='Request' source='7fb952f2-588b-4091-b3f0-3bb1e9329766-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='500e8f52-4605-4ffb-8aae-edf98cdba0e3-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372900259' status='passed' stop='1575372900280'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/5/text</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/element/5/text</title>
+                    <attachments>
+                        <attachment title='Response' source='500424c9-2f12-4a2b-a2e4-a7dfffe615a1-attachment.json' type='application/json' size='222'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1575372900282' status='passed' stop='1575372900602'>
+                    <name>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/screenshot</name>
+                    <title>GET /wd/hub/session/cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='216d0246-3e03-404b-8848-6b4bde4e7c45-attachment.png' type='image/png' size='299792'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

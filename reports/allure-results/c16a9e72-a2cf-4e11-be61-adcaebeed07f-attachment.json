@@ -1,0 +1,4 @@
+{
+    "using": "css selector",
+    "value": "ul#main-ad-list li:nth-child(2) > a > div.col-3 > p"
+}

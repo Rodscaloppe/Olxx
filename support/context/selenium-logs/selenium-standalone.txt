@@ -1,308 +1,173 @@
-08:25:00.071 INFO - Launching a standalone Selenium Server
-08:25:00.087 INFO - Java: Ubuntu 11.0.5-ea+10-post-Ubuntu-0ubuntu1
-08:25:00.087 INFO - OS: Linux 5.3.0-23-generic amd64
-08:25:00.095 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
-08:25:00.131 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+08:34:27.871 INFO - Launching a standalone Selenium Server
+08:34:27.888 INFO - Java: Ubuntu 11.0.5-ea+10-post-Ubuntu-0ubuntu1
+08:34:27.888 INFO - OS: Linux 5.3.0-23-generic amd64
+08:34:27.896 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+08:34:27.934 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
 registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-08:25:00.132 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+08:34:27.935 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
 registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-08:25:00.132 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-08:25:00.132 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-08:25:00.133 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+08:34:27.935 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+08:34:27.935 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+08:34:27.936 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
 registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-08:25:00.133 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
-08:25:00.133 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
-08:25:00.160 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
-08:25:00.160 INFO - Selenium Server is up and running
-08:25:00.846 INFO - Executing: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2ef66be1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]])
-08:25:00.853 INFO - Creating a new session for Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2ef66be1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]
-Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 11396
+08:34:27.936 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+08:34:27.936 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+08:34:27.964 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+08:34:27.964 INFO - Selenium Server is up and running
+08:34:28.641 INFO - Executing: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5bbfa373, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]])
+08:34:28.649 INFO - Creating a new session for Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5bbfa373, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 2058
 Only local connections are allowed.
-08:25:01.585 INFO - Done: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2ef66be1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]]
-08:25:01.596 INFO - Executing: [implicit wait: 5000])
-08:25:01.601 INFO - Done: [implicit wait: 5000]
-08:25:02.415 INFO - Executing: [get: https://www.olx.com.br/])
-08:25:05.562 INFO - Done: [get: https://www.olx.com.br/]
-08:25:05.572 INFO - Executing: [maximise window])
-08:25:05.696 INFO - Done: [maximise window]
-08:25:05.706 INFO - Executing: [get: https://www.olx.com.br/])
-08:25:06.421 INFO - Done: [get: https://www.olx.com.br/]
-08:25:06.447 INFO - Executing: [find element: By.cssSelector: div#___gatsby header > a])
-08:25:06.483 INFO - Done: [find element: By.cssSelector: div#___gatsby header > a]
-08:25:06.495 INFO - Executing: [find elements: By.cssSelector: div#___gatsby header > a])
-08:25:06.510 INFO - Done: [find elements: By.cssSelector: div#___gatsby header > a]
-08:25:06.514 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby header > a]])
-08:25:06.527 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby header > a]]
-08:25:06.531 INFO - Executing: [find element: By.cssSelector: div#___gatsby header > a])
-08:25:06.540 INFO - Done: [find element: By.cssSelector: div#___gatsby header > a]
-08:25:06.546 INFO - Executing: [find elements: By.cssSelector: div#___gatsby header > a])
-08:25:06.555 INFO - Done: [find elements: By.cssSelector: div#___gatsby header > a]
-08:25:06.557 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby header > a]])
-08:25:06.565 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby header > a]]
-08:25:06.570 INFO - Executing: [find element: By.cssSelector: input#q])
-08:25:06.583 INFO - Done: [find element: By.cssSelector: input#q]
-08:25:06.588 INFO - Executing: [clear: 1 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: input#q]])
-08:25:06.642 INFO - Done: [clear: 1 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: input#q]]
-08:25:06.647 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: input#q], [j, e, e, p]])
-08:25:06.710 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: input#q], [j, e, e, p]]
-08:25:06.715 INFO - Executing: [find element: By.cssSelector: div#___gatsby button[type="submit"]])
-08:25:06.727 INFO - Done: [find element: By.cssSelector: div#___gatsby button[type="submit"]]
-08:25:06.733 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby button[type="submit"]]])
-08:25:06.798 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby button[type="submit"]]]
-08:25:06.802 INFO - Executing: [find element: By.cssSelector: div#___gatsby button[type="submit"]])
-08:25:06.812 INFO - Done: [find element: By.cssSelector: div#___gatsby button[type="submit"]]
-08:25:06.824 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby button[type="submit"]]])
-08:25:10.177 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (c0155a54a01c2df864519171c0f4d156)] -> css selector: div#___gatsby button[type="submit"]]]
-08:25:10.183 INFO - Executing: [find element: By.cssSelector: h4[class*="search-category-title"]])
-Gtk-Message: 08:25:12.493: Failed to load module "canberra-gtk-module"
-08:25:12.890 ERROR - Unexpected exception during findElement
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-*** Element info: {Using=css selector, value=h4[class*="search-category-title"]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy3.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-08:25:12.891 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-*** Element info: {Using=css selector, value=h4[class*="search-category-title"]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy3.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-08:25:12.893 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-*** Element info: {Using=css selector, value=h4[class*="search-category-title"]}
-08:25:12.925 INFO - Executing: [take screenshot])
-08:25:12.931 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
-	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:36)
-	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-08:25:12.932 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-08:25:12.941 INFO - Executing: [get: https://www.olx.com.br/])
-08:25:13.052 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy3.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
-	at org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:40)
-	at org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-08:25:13.053 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-08:25:13.068 INFO - Executing: [get: https://www.olx.com.br/])
-08:25:13.358 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy3.get(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:163)
-	at org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:40)
-	at org.openqa.selenium.remote.server.handler.ChangeUrl.call(ChangeUrl.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-08:25:13.359 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 4 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-08:25:13.373 INFO - Executing: [take screenshot])
-08:25:13.377 WARN - Exception thrown
-org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:335)
-	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:36)
-	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:1)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-08:25:13.378 WARN - Exception: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=78.0.3904.108)
-  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 5.3.0-23-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3 milliseconds
-Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
-System info: host: 'rod-ThinkPad-E490', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-23-generic', java.version: '11.0.5-ea'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881), userDataDir=/tmp/.org.chromium.Chromium.Po9NSA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=78.0.3904.108, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: c0155a54a01c2df864519171c0f4d156
-08:25:13.486 INFO - Executing: [delete session: 4af97c4d-2aa9-45f1-8ae0-725c481a3517])
-08:25:13.506 INFO - Done: [delete session: 4af97c4d-2aa9-45f1-8ae0-725c481a3517]
+08:34:29.318 INFO - Done: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5bbfa373, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]]
+08:34:29.331 INFO - Executing: [implicit wait: 5000])
+08:34:29.337 INFO - Done: [implicit wait: 5000]
+08:34:29.516 INFO - Executing: [get: https://www.olx.com.br/])
+08:34:32.945 INFO - Done: [get: https://www.olx.com.br/]
+08:34:32.953 INFO - Executing: [maximise window])
+08:34:33.059 INFO - Done: [maximise window]
+08:34:33.071 INFO - Executing: [get: https://www.olx.com.br/])
+08:34:33.872 INFO - Done: [get: https://www.olx.com.br/]
+08:34:33.882 INFO - Executing: [find element: By.cssSelector: div#___gatsby header > a])
+08:34:33.904 INFO - Done: [find element: By.cssSelector: div#___gatsby header > a]
+08:34:33.915 INFO - Executing: [find elements: By.cssSelector: div#___gatsby header > a])
+08:34:33.929 INFO - Done: [find elements: By.cssSelector: div#___gatsby header > a]
+08:34:33.933 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby header > a]])
+08:34:33.944 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby header > a]]
+08:34:33.951 INFO - Executing: [find element: By.cssSelector: div#___gatsby header > a])
+08:34:33.959 INFO - Done: [find element: By.cssSelector: div#___gatsby header > a]
+08:34:33.965 INFO - Executing: [find elements: By.cssSelector: div#___gatsby header > a])
+08:34:33.975 INFO - Done: [find elements: By.cssSelector: div#___gatsby header > a]
+08:34:33.978 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby header > a]])
+08:34:33.988 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby header > a]]
+08:34:33.992 INFO - Executing: [find element: By.cssSelector: input#q])
+08:34:34.004 INFO - Done: [find element: By.cssSelector: input#q]
+08:34:34.009 INFO - Executing: [clear: 1 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: input#q]])
+08:34:34.025 INFO - Done: [clear: 1 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: input#q]]
+08:34:34.029 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: input#q], [j, e, e, p]])
+08:34:34.068 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: input#q], [j, e, e, p]]
+08:34:34.073 INFO - Executing: [find element: By.cssSelector: div#___gatsby button[type="submit"]])
+08:34:34.086 INFO - Done: [find element: By.cssSelector: div#___gatsby button[type="submit"]]
+08:34:34.091 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby button[type="submit"]]])
+08:34:34.104 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby button[type="submit"]]]
+08:34:34.107 INFO - Executing: [find element: By.cssSelector: div#___gatsby button[type="submit"]])
+08:34:34.117 INFO - Done: [find element: By.cssSelector: div#___gatsby button[type="submit"]]
+08:34:34.122 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby button[type="submit"]]])
+08:34:44.909 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: div#___gatsby button[type="submit"]]]
+08:34:44.919 INFO - Executing: [find element: By.cssSelector: h4[class*="search-category-title"]])
+08:34:44.941 INFO - Done: [find element: By.cssSelector: h4[class*="search-category-title"]]
+08:34:44.948 INFO - Executing: [find elements: By.cssSelector: h4[class*="search-category-title"]])
+08:34:44.963 INFO - Done: [find elements: By.cssSelector: h4[class*="search-category-title"]]
+08:34:44.967 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: h4[class*="search-category-title"]]])
+08:34:44.986 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: h4[class*="search-category-title"]]]
+08:34:44.992 INFO - Executing: [find element: By.cssSelector: #main-ad-list > li:nth-of-type(1) > a.OLXad-list-link > div:nth-of-type(2) > div:nth-of-type(1) > h2.OLXad-list-title])
+08:34:45.005 INFO - Done: [find element: By.cssSelector: #main-ad-list > li:nth-of-type(1) > a.OLXad-list-link > div:nth-of-type(2) > div:nth-of-type(1) > h2.OLXad-list-title]
+08:34:45.013 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: #main-ad-list > li:nth-of-type(1) > a.OLXad-list-link > div:nth-of-type(2) > div:nth-of-type(1) > h2.OLXad-list-title]])
+08:34:45.028 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: #main-ad-list > li:nth-of-type(1) > a.OLXad-list-link > div:nth-of-type(2) > div:nth-of-type(1) > h2.OLXad-list-title]]
+08:34:45.033 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(1) > a > div.col-3 > p])
+08:34:45.046 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(1) > a > div.col-3 > p]
+08:34:45.052 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(1) > a > div.col-3 > p]])
+08:34:45.068 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(1) > a > div.col-3 > p]]
+08:34:45.073 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(2) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2])
+08:34:45.087 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(2) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]
+08:34:45.092 INFO - Executing: [get text: 6 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(2) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]])
+08:34:45.109 INFO - Done: [get text: 6 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(2) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]]
+08:34:45.115 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(2) > a > div.col-3 > p])
+08:34:45.127 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(2) > a > div.col-3 > p]
+08:34:45.134 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(2) > a > div.col-3 > p]])
+08:34:45.150 INFO - Done: [get text: 7 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(2) > a > div.col-3 > p]]
+08:34:45.155 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(6) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2])
+08:34:45.174 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(6) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]
+08:34:45.183 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(6) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]])
+08:34:45.201 INFO - Done: [get text: 8 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(6) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]]
+08:34:45.205 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(6) > a > div.col-3 > p])
+08:34:45.219 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(6) > a > div.col-3 > p]
+08:34:45.226 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(6) > a > div.col-3 > p]])
+08:34:45.244 INFO - Done: [get text: 9 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(6) > a > div.col-3 > p]]
+08:34:45.249 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(7) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2])
+08:34:45.265 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(7) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]
+08:34:45.272 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(7) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]])
+08:34:45.288 INFO - Done: [get text: 10 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(7) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]]
+08:34:45.292 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(7) > a > div.col-3 > p])
+08:34:45.305 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(7) > a > div.col-3 > p]
+08:34:45.310 INFO - Executing: [get text: 11 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(7) > a > div.col-3 > p]])
+08:34:45.327 INFO - Done: [get text: 11 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(7) > a > div.col-3 > p]]
+08:34:45.335 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(8) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2])
+08:34:45.350 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(8) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]
+08:34:45.356 INFO - Executing: [get text: 12 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(8) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]])
+08:34:45.373 INFO - Done: [get text: 12 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(8) > a > div.col-2 > div.OLXad-list-line-1.mb5px > h2]]
+08:34:45.376 INFO - Executing: [find element: By.cssSelector: ul#main-ad-list li:nth-child(8) > a > div.col-3 > p])
+08:34:45.390 INFO - Done: [find element: By.cssSelector: ul#main-ad-list li:nth-child(8) > a > div.col-3 > p]
+08:34:45.394 INFO - Executing: [get text: 13 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(8) > a > div.col-3 > p]])
+08:34:45.410 INFO - Done: [get text: 13 [[ChromeDriver: chrome on LINUX (24ec05a40283ecbf6b2c86153aba4db2)] -> css selector: ul#main-ad-list li:nth-child(8) > a > div.col-3 > p]]
+08:34:45.416 INFO - Executing: [take screenshot])
+08:34:45.760 INFO - Done: [take screenshot]
+08:34:45.790 INFO - Executing: [delete session: 303933bc-2972-46af-a161-9a38bc0f1a2c])
+08:34:45.917 INFO - Done: [delete session: 303933bc-2972-46af-a161-9a38bc0f1a2c]
+08:34:45.927 INFO - Executing: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6bc8be92, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]])
+08:34:45.929 INFO - Creating a new session for Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6bc8be92, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 27971
+Only local connections are allowed.
+08:34:46.381 INFO - Done: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6bc8be92, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]]
+08:34:46.388 INFO - Executing: [get: https://www.olx.com.br/])
+08:34:49.742 INFO - Done: [get: https://www.olx.com.br/]
+08:34:49.752 INFO - Executing: [maximise window])
+08:34:49.857 INFO - Done: [maximise window]
+08:34:49.861 INFO - Executing: [get: https://www.olx.com.br/])
+08:34:51.141 INFO - Done: [get: https://www.olx.com.br/]
+08:34:51.148 INFO - Executing: [find element: By.cssSelector: div#___gatsby header > a])
+08:34:51.167 INFO - Done: [find element: By.cssSelector: div#___gatsby header > a]
+08:34:51.174 INFO - Executing: [find elements: By.cssSelector: div#___gatsby header > a])
+08:34:51.187 INFO - Done: [find elements: By.cssSelector: div#___gatsby header > a]
+08:34:51.189 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby header > a]])
+08:34:51.201 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby header > a]]
+08:34:51.206 INFO - Executing: [find element: By.cssSelector: div#___gatsby header > a])
+08:34:51.214 INFO - Done: [find element: By.cssSelector: div#___gatsby header > a]
+08:34:51.219 INFO - Executing: [find elements: By.cssSelector: div#___gatsby header > a])
+08:34:51.229 INFO - Done: [find elements: By.cssSelector: div#___gatsby header > a]
+08:34:51.231 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby header > a]])
+08:34:51.239 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby header > a]]
+08:34:51.242 INFO - Executing: [find element: By.cssSelector: input#q])
+08:34:51.254 INFO - Done: [find element: By.cssSelector: input#q]
+08:34:51.258 INFO - Executing: [clear: 1 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: input#q]])
+08:34:51.273 INFO - Done: [clear: 1 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: input#q]]
+08:34:51.276 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: input#q], [j, e, e, p]])
+08:34:51.312 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: input#q], [j, e, e, p]]
+08:34:51.316 INFO - Executing: [find element: By.cssSelector: div#___gatsby button[type="submit"]])
+08:34:51.328 INFO - Done: [find element: By.cssSelector: div#___gatsby button[type="submit"]]
+08:34:51.333 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby button[type="submit"]]])
+08:34:51.345 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby button[type="submit"]]]
+08:34:51.348 INFO - Executing: [find element: By.cssSelector: div#___gatsby button[type="submit"]])
+08:34:51.374 INFO - Done: [find element: By.cssSelector: div#___gatsby button[type="submit"]]
+08:34:51.390 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby button[type="submit"]]])
+08:34:55.783 INFO - Done: [click: 2 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: div#___gatsby button[type="submit"]]]
+08:34:55.793 INFO - Executing: [find element: By.cssSelector: h4[class*="search-category-title"]])
+08:34:55.924 INFO - Done: [find element: By.cssSelector: h4[class*="search-category-title"]]
+08:34:55.931 INFO - Executing: [find elements: By.cssSelector: h4[class*="search-category-title"]])
+08:34:55.944 INFO - Done: [find elements: By.cssSelector: h4[class*="search-category-title"]]
+08:34:55.947 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: h4[class*="search-category-title"]]])
+08:34:55.959 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: h4[class*="search-category-title"]]]
+08:34:55.961 INFO - Executing: [find element: By.cssSelector: body.has_module-advertising-position-right-out:nth-child(2) div.wrapper:nth-child(53) div.site_wrapper:nth-child(9) main.site_main.OLXcampaign.esquadrao-desapega:nth-child(4) div.page_listing:nth-child(5) div.grid-row div.grid-col.col-2:nth-child(2) div.section_listing:nth-child(4) div.module_pagination:nth-child(11) ul.list li.item.next:nth-child(16) > a.link])
+08:34:55.972 INFO - Done: [find element: By.cssSelector: body.has_module-advertising-position-right-out:nth-child(2) div.wrapper:nth-child(53) div.site_wrapper:nth-child(9) main.site_main.OLXcampaign.esquadrao-desapega:nth-child(4) div.page_listing:nth-child(5) div.grid-row div.grid-col.col-2:nth-child(2) div.section_listing:nth-child(4) div.module_pagination:nth-child(11) ul.list li.item.next:nth-child(16) > a.link]
+08:34:55.976 INFO - Executing: [click: 4 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: body.has_module-advertising-position-right-out:nth-child(2) div.wrapper:nth-child(53) div.site_wrapper:nth-child(9) main.site_main.OLXcampaign.esquadrao-desapega:nth-child(4) div.page_listing:nth-child(5) div.grid-row div.grid-col.col-2:nth-child(2) div.section_listing:nth-child(4) div.module_pagination:nth-child(11) ul.list li.item.next:nth-child(16) > a.link]])
+08:34:59.178 INFO - Done: [click: 4 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: body.has_module-advertising-position-right-out:nth-child(2) div.wrapper:nth-child(53) div.site_wrapper:nth-child(9) main.site_main.OLXcampaign.esquadrao-desapega:nth-child(4) div.page_listing:nth-child(5) div.grid-row div.grid-col.col-2:nth-child(2) div.section_listing:nth-child(4) div.module_pagination:nth-child(11) ul.list li.item.next:nth-child(16) > a.link]]
+08:35:00.193 INFO - Executing: [find element: By.cssSelector: span.counter])
+08:35:00.213 INFO - Done: [find element: By.cssSelector: span.counter]
+08:35:00.219 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: span.counter]])
+08:35:00.234 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: span.counter]]
+08:35:00.240 INFO - Executing: [find element: By.cssSelector: span.counter])
+08:35:00.253 INFO - Done: [find element: By.cssSelector: span.counter]
+08:35:00.260 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: span.counter]])
+08:35:00.278 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (8749fd5c31ca694ca3e23ed0dcd8187c)] -> css selector: span.counter]]
+08:35:00.283 INFO - Executing: [take screenshot])
+08:35:00.581 INFO - Done: [take screenshot]
+08:35:00.600 INFO - Executing: [take screenshot])
+08:35:00.843 INFO - Done: [take screenshot]
+08:35:00.851 INFO - Executing: [delete session: cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9])
+08:35:00.976 INFO - Done: [delete session: cdb55ee9-fb1c-4dc7-946b-10f2939a9ae9]
+08:35:00.982 INFO - Executing: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7b0c7ee1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]])
+08:35:00.983 INFO - Creating a new session for Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7b0c7ee1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 25737
+Only local connections are allowed.
+08:35:01.436 INFO - Done: [new session: Capabilities [{args=[--window-size=1280,800], rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7b0c7ee1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, maxInstances=1, requestOrigins={name=webdriverio, version=4.12.0, url=http://webdriver.io}}]]
+08:35:01.542 INFO - Executing: [delete session: 30c0e467-ba4f-4ff9-9a5a-3a4ff7be37b8])
+08:35:01.708 INFO - Done: [delete session: 30c0e467-ba4f-4ff9-9a5a-3a4ff7be37b8]
