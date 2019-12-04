@@ -8,9 +8,9 @@
 ---
 ## Para começar:
 1. NodeJS instalado globalmente no sistema operacional. Instale sempre a versão estável*
-```
-*Se der erro no node, instalar sem usar apt-get e instalar primeiro o nvm estável e depois o node-gyp
-```
+
+> *Se der erro no node, instalar sem usar apt-get e instalar primeiro o nvm estável e depois o node-gyp*
+
 2. Git instalado
 
 3. Navegador Chrome ou Firefox instalado
