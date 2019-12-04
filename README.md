@@ -1,20 +1,24 @@
 
 ## OLX
-
-*Projeto para automação de teste com WebdriverIO, cucumber e typescript.*
+---
+# Projeto para automação de teste com WebdriverIO, cucumber e typescript.
 
 ![Peek2](https://user-images.githubusercontent.com/1812647/70125747-30350100-1656-11ea-9185-224a2c60a5b1.gif)
 
 ---
 ## Para começar:
-1. NodeJS instalado globalmente no sistema operacional. Instale sempre a versão estável
+1. NodeJS instalado globalmente no sistema operacional. Instale sempre a versão estável*
+```
+*Se der erro no node, instalar sem usar apt-get e instalar primeiro o nvm estável e depois o node-gyp
+```
+2. Git instalado
 
-        caso o node de erro, instalar sem usar apt-get e instalar primeiro o nvm
+3. Navegador Chrome ou Firefox instalado
 
-2. Git instalado;
-3. Navegador Chrome ou Firefox instalado;
-4. JAVA SDK: 
-4. Editor de texto (Opcional) 
+4. JAVA SDK
+
+5. Python v2.7
+6. Editor de texto ou IDE (Opcional)
 
 ``` 
 npm i
