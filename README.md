@@ -1,4 +1,4 @@
-![olx-gif](https://github.com/skimono/Olxx/tree/master/support/util/upload/Peek.gif)
+![olx-gif](https://github.com/skimono/Olxx/tree/master/support/util/upload/Peek2.gif)
 
 
 ### Olx 
