@@ -1,14 +1,15 @@
-![olx-gif](https://github.com/skimono/Olxx/tree/master/support/util/upload/Peek2.gif)
 
-
-### Olx 
-====================
+## OLX
 
 *Projeto para automação de teste com WebdriverIO, cucumber e typescript.*
+
+![Peek2](https://user-images.githubusercontent.com/1812647/70125747-30350100-1656-11ea-9185-224a2c60a5b1.gif)
+
 ---
 ## Para começar:
-1. NodeJS instalado globalmente no sistema operacional. Instale sempre a versão estável.
-[caso o node de erro, instalar sem usar apt-get e instalar primeiro o nvm
+1. NodeJS instalado globalmente no sistema operacional. Instale sempre a versão estável
+
+        caso o node de erro, instalar sem usar apt-get e instalar primeiro o nvm
 
 2. Git instalado;
 3. Navegador Chrome ou Firefox instalado;
@@ -66,7 +67,3 @@ Para gerar o relatório Allure, execute o comando abaixo no terminal:
 allure serve ./reports/allure-results/ && allure open
 
 ```
-
-
-
-
