@@ -1,7 +1,8 @@
-> .skimono Set theme jekyll-theme-hacker
-## OLX
+> *.skimono Set theme jekyll-theme-hacker*
+
+
 ---
-# Projeto para automação de teste com WebdriverIO, cucumber e typescript.
+# Projeto OLX para automação de teste com WebdriverIO, Cucumber e Typescript
 
 ![Peek2](https://user-images.githubusercontent.com/1812647/70125747-30350100-1656-11ea-9185-224a2c60a5b1.gif)
 
@@ -18,6 +19,7 @@
 4. JAVA SDK
 
 5. Python v2.7
+
 6. Editor de texto ou IDE (Opcional)
 
 ``` 
