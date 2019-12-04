@@ -1,3 +1,6 @@
+![olx-gif](https://github.com/skimono/Olxx/tree/master/support/util/upload/Peek.gif)
+
+
 ### Olx 
 ====================
 
@@ -62,8 +65,8 @@ Para gerar o relatório Allure, execute o comando abaixo no terminal:
 ```
 allure serve ./reports/allure-results/ && allure open
 
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 5feda2f1807b05e12ac5bf4419b9d2d67b4804a9
+
+
+
+
