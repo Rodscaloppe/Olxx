@@ -73,3 +73,6 @@ Para gerar o relatório Allure, execute o comando abaixo no terminal:
 allure serve ./reports/allure-results/ && allure open
 
 ```
+`$ npm install marked`  `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install marked` `$ npm install mr  ds`   
+
+`wekowkeow`
